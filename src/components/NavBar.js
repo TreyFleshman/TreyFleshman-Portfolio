@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
-import { AiOutlineHome,AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser, AiFillGithub } from "react-icons/ai";
 import { RiCodeSSlashLine } from "react-icons/ri";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -71,6 +71,17 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
+
+
+            <a
+              href="https://github.com/TreyFleshman"
+              target="_blank"
+              rel="noreferrer"
+              style={{position: 'absolute', left: '1450px', top: '35px', textDecoration: 'none', color: 'white'}}
+            >
+              <AiFillGithub style={{fontSize: '30px'}}/>
+            </a>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

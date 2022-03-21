@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub } from "react-icons/ai";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -47,20 +46,19 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <h1><span className="purple">Connect </span>with me</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
-                <a
-                  href="https://github.com/TreyFleshman"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
+                <b className="purple">
+                  <MdEmail />
+                </b>
+                - fleshman.trey@gmail.com
+              </li>
+              <li className="social-icons">
+                <b className="purple">
+                  <FaPhoneAlt />
+                </b>
+                - (812)-286-0752
               </li>
             </ul>
           </Col>
@@ -68,8 +66,7 @@ function Home2() {
         <Row>
           <Col md={12} className="contact">
             <ul>
-              <li><b className="purple"><MdEmail /></b> - treyafleshman@gmail.com</li>
-              <li><p><b className="purple"><FaPhoneAlt /></b> - (812)-786-4338</p></li>
+              <li><b className="purple">Mon-Fri:</b> 10:00am - 5:00pm <b className="purple">EST</b></li>
             </ul>
           </Col>
         </Row>
