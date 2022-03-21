@@ -11,8 +11,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Trey Fleshman </span>
             from Indiana, USA.
-            <br />I completed my Bachelor of Science at <span className="purple">Indiana University Purdue University Indianapolis</span> ( IUPUI ),
-            in May, 2021. I majored in <span className="purple">Computer Information and Technology</span>,
+            <br />I completed my Bachelor of Science at <span className="purple">Indiana University Purdue University Indianapolis</span> ( IUPUI ).
+             I majored in <span className="purple">Computer Information and Technology</span>,
             concentrating with MERN stack technologies and Google Cloud Platform.
             <br />
             <br />
