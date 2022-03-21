@@ -19,16 +19,6 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/trey-fleshman-42a617192/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
           </ul>
         </Col>
       </Row>

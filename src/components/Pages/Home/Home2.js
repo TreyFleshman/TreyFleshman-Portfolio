@@ -62,16 +62,6 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/trey-fleshman-42a617192/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
             </ul>
           </Col>
         </Row>
