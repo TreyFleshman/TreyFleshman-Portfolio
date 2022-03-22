@@ -72,15 +72,16 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-
-            <a
-              href="https://github.com/TreyFleshman"
-              target="_blank"
-              rel="noreferrer"
-              style={{position: 'absolute', left: '1450px', top: '35px', textDecoration: 'none', color: 'white'}}
-            >
-              <AiFillGithub style={{fontSize: '30px'}}/>
-            </a>
+            <div style={{paddingTop: '10px', marginLeft: '10px' }}>
+              <a
+                href="https://github.com/TreyFleshman"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: 'white' }}
+              >
+                <AiFillGithub style={{ fontSize: '30px' }} />
+              </a>
+            </div>
 
           </Nav>
         </Navbar.Collapse>
