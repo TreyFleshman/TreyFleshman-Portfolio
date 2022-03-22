@@ -11,6 +11,7 @@ import Navbar from './components/NavBar';
 import Home from './components/Pages/Home/Home';
 import Footer from "./components/Footer";
 import About from "./components/Pages/About/About";
+import Experience from "./components/Pages/Experience/Expereince";
 import Projects from "./components/Pages/Projects/Projects";
 
 import ScrollToTop from "./components/ScrollToTop";
@@ -35,6 +36,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
+          <Route path="/experience" exact component={Experience} />
           <Route path="/projects" exact component={Projects} />
         </Switch>
         <Footer />

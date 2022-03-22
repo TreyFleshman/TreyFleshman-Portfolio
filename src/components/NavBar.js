@@ -6,6 +6,7 @@ import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 import { AiOutlineHome, AiOutlineUser, AiFillGithub } from "react-icons/ai";
 import { RiCodeSSlashLine } from "react-icons/ri";
+import { MdWork } from "react-icons/md";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -56,6 +57,19 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdWork
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Experience
               </Nav.Link>
             </Nav.Item>
 
