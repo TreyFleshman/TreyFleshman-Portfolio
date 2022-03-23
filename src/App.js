@@ -14,8 +14,6 @@ import About from "./components/Pages/About/About";
 import Experience from "./components/Pages/Experience/Expereince";
 import Projects from "./components/Pages/Projects/Projects";
 
-import ScrollToTop from "./components/ScrollToTop";
-
 function App() {
   const [load, upadateLoad] = useState(true);
   
@@ -32,7 +30,6 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />

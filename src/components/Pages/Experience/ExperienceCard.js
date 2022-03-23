@@ -26,7 +26,7 @@ function ExperienceCards(props) {
                 <h5><strong className="purple">Responsibilities</strong></h5>
                 <Card.Text style={{ textAlign: "justify" }}>
                     <ul>
-                        {props.responsibilities?.map(item => <li>{item}</li>)}
+                        {props.responsibilities?.map(item => <li key={item}>{item}</li>)}
                     </ul>
                 </Card.Text>
             </Card.Body>

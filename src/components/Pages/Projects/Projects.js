@@ -18,7 +18,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={HomePage}
               title="Travel Blog"
@@ -26,7 +26,7 @@ function Projects() {
               link="https://github.com/TreyFleshman/MERN-Travel-Blog"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={WebStore}
               title="E-Commerce Web Store"
